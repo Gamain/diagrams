@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-12T01:04:39.268Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36 Edg/94.0.992.38" etag="kLf5fpNo9kSgpO1P6s_V" version="15.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-13T08:18:16.208Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36 Edg/94.0.992.38" etag="lr9Xtp1VcSCK-mI36Jn3" version="15.5.0" type="github">
   <diagram id="RkiMLek5d7CjkgDaNXFE" name="第 1 页">
     <mxGraphModel dx="1422" dy="833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,17 +19,8 @@
         <mxCell id="5Vf515EnHFLj8KpvHSAa-6" value="审核通过" style="whiteSpace=wrap;html=1;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;sketch=1;rounded=1;" vertex="1" parent="5Vf515EnHFLj8KpvHSAa-2">
           <mxGeometry x="25" y="150" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="5Vf515EnHFLj8KpvHSAa-27" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.592;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#006658;fontColor=#5C5C5C;sketch=1;curved=1;" edge="1" parent="5Vf515EnHFLj8KpvHSAa-2" source="5Vf515EnHFLj8KpvHSAa-23" target="5Vf515EnHFLj8KpvHSAa-26">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="5Vf515EnHFLj8KpvHSAa-23" value="选择方案包" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;sketch=1;rounded=1;" vertex="1" parent="5Vf515EnHFLj8KpvHSAa-2">
+        <mxCell id="5Vf515EnHFLj8KpvHSAa-23" value="安装方案" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;sketch=1;rounded=1;" vertex="1" parent="5Vf515EnHFLj8KpvHSAa-2">
           <mxGeometry x="50" y="610" width="96" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="5Vf515EnHFLj8KpvHSAa-30" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#006658;fontColor=#5C5C5C;sketch=1;curved=1;" edge="1" parent="5Vf515EnHFLj8KpvHSAa-2" source="5Vf515EnHFLj8KpvHSAa-26" target="5Vf515EnHFLj8KpvHSAa-28">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="5Vf515EnHFLj8KpvHSAa-26" value="安装方案包" style="whiteSpace=wrap;html=1;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;sketch=1;rounded=1;" vertex="1" parent="5Vf515EnHFLj8KpvHSAa-2">
-          <mxGeometry x="30" y="730" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5Vf515EnHFLj8KpvHSAa-28" value="当前客户是否&lt;br&gt;存在有效订单" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;sketch=1;rounded=1;" vertex="1" parent="5Vf515EnHFLj8KpvHSAa-2">
           <mxGeometry x="33.33" y="850" width="116.67" height="70" as="geometry" />
@@ -82,17 +73,25 @@
         <mxCell id="5Vf515EnHFLj8KpvHSAa-62" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#5C5C5C;strokeColor=#006658;fillColor=#21C0A5;sketch=1;curved=1;" edge="1" parent="5Vf515EnHFLj8KpvHSAa-3" source="5Vf515EnHFLj8KpvHSAa-49" target="5Vf515EnHFLj8KpvHSAa-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5Vf515EnHFLj8KpvHSAa-49" value="回调接口" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#5C5C5C;fillColor=#21C0A5;strokeColor=#006658;sketch=1;rounded=1;" vertex="1" parent="5Vf515EnHFLj8KpvHSAa-3">
+        <mxCell id="5Vf515EnHFLj8KpvHSAa-49" value="状态回调接口" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#5C5C5C;fillColor=#21C0A5;strokeColor=#006658;sketch=1;rounded=1;" vertex="1" parent="5Vf515EnHFLj8KpvHSAa-3">
           <mxGeometry x="34" y="910" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5Vf515EnHFLj8KpvHSAa-60" value="更新订单状态" style="whiteSpace=wrap;html=1;fontColor=#5C5C5C;strokeColor=#006658;fillColor=#21C0A5;sketch=1;rounded=1;" vertex="1" parent="5Vf515EnHFLj8KpvHSAa-3">
           <mxGeometry x="49" y="990" width="120" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="5Vf515EnHFLj8KpvHSAa-26" value="查询客户订单接口" style="whiteSpace=wrap;html=1;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;sketch=1;rounded=1;" vertex="1" parent="5Vf515EnHFLj8KpvHSAa-3">
+          <mxGeometry x="30" y="620" width="124" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="5Vf515EnHFLj8KpvHSAa-9" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#006658;fontColor=#5C5C5C;sketch=1;curved=1;" edge="1" parent="5Vf515EnHFLj8KpvHSAa-1" source="5Vf515EnHFLj8KpvHSAa-6" target="5Vf515EnHFLj8KpvHSAa-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5Vf515EnHFLj8KpvHSAa-31" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.01;entryY=0.683;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#006658;fontColor=#5C5C5C;sketch=1;curved=1;" edge="1" parent="5Vf515EnHFLj8KpvHSAa-1" source="5Vf515EnHFLj8KpvHSAa-28" target="5Vf515EnHFLj8KpvHSAa-12">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="5Vf515EnHFLj8KpvHSAa-31" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.01;entryY=0.683;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF0000;fontColor=#5C5C5C;sketch=1;curved=1;fillColor=#f8cecc;" edge="1" parent="5Vf515EnHFLj8KpvHSAa-1" source="5Vf515EnHFLj8KpvHSAa-28" target="5Vf515EnHFLj8KpvHSAa-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="905" />
+              <mxPoint x="220" y="321" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="5Vf515EnHFLj8KpvHSAa-32" value="&lt;span&gt;&lt;font color=&quot;#ff0000&quot;&gt;否&lt;/font&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#5C5C5C;fontStyle=1;sketch=1;rounded=1;" vertex="1" connectable="0" parent="5Vf515EnHFLj8KpvHSAa-31">
           <mxGeometry x="0.2856" y="-9" relative="1" as="geometry">
@@ -120,8 +119,13 @@
         <mxCell id="5Vf515EnHFLj8KpvHSAa-50" value="方案安装成功后要通过回调&lt;br&gt;的方式来通知应用市场" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#5C5C5C;sketch=1;rounded=1;" vertex="1" parent="5Vf515EnHFLj8KpvHSAa-4">
           <mxGeometry x="10" y="890" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="5Vf515EnHFLj8KpvHSAa-40" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#006658;fontColor=#5C5C5C;sketch=1;curved=1;" edge="1" parent="5Vf515EnHFLj8KpvHSAa-1" source="5Vf515EnHFLj8KpvHSAa-28" target="5Vf515EnHFLj8KpvHSAa-39">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="5Vf515EnHFLj8KpvHSAa-40" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;fontColor=#5C5C5C;sketch=1;curved=1;" edge="1" parent="5Vf515EnHFLj8KpvHSAa-1" source="5Vf515EnHFLj8KpvHSAa-28" target="5Vf515EnHFLj8KpvHSAa-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="905" />
+              <mxPoint x="470" y="610" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="5Vf515EnHFLj8KpvHSAa-42" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;是&lt;/font&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#5C5C5C;sketch=1;rounded=1;" vertex="1" connectable="0" parent="5Vf515EnHFLj8KpvHSAa-40">
           <mxGeometry x="-0.1579" y="24" relative="1" as="geometry">
@@ -137,6 +141,19 @@
           <mxGeometry x="0.0851" y="7" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="5Vf515EnHFLj8KpvHSAa-27" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.592;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#006658;fontColor=#5C5C5C;sketch=1;curved=1;" edge="1" parent="5Vf515EnHFLj8KpvHSAa-1" source="5Vf515EnHFLj8KpvHSAa-23" target="5Vf515EnHFLj8KpvHSAa-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="208" y="660" />
+              <mxPoint x="208" y="620" />
+              <mxPoint x="341" y="620" />
+              <mxPoint x="341" y="638" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Vf515EnHFLj8KpvHSAa-30" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#006658;fontColor=#5C5C5C;sketch=1;curved=1;" edge="1" parent="5Vf515EnHFLj8KpvHSAa-1" source="5Vf515EnHFLj8KpvHSAa-26" target="5Vf515EnHFLj8KpvHSAa-28">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5Vf515EnHFLj8KpvHSAa-16" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#006658;fontColor=#5C5C5C;sketch=1;curved=1;" edge="1" parent="1" source="5Vf515EnHFLj8KpvHSAa-13" target="5Vf515EnHFLj8KpvHSAa-12">
           <mxGeometry relative="1" as="geometry" />
