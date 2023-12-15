@@ -1,9 +1,26 @@
-<mxfile host="app.diagrams.net" modified="2023-12-15T00:54:20.312Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" version="22.1.9" etag="mtSd1qQRc-1m6QyH_Foc" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-15T01:03:46.009Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="vtrOaUfkHZvHa7m3ni08" version="22.1.9" type="github">
   <diagram name="第 1 页" id="iegbS-ZhXjRFPo02BYmU">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="DxUAQkKfqXPPxd1jrThC-1" value="主狗" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.usb_stick;" vertex="1" parent="1">
+          <mxGeometry x="50" y="400" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DxUAQkKfqXPPxd1jrThC-3" value="Pool" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;horizontal=0;horizontalStack=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="340" width="380" height="480" as="geometry">
+            <mxRectangle x="280" y="340" width="40" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DxUAQkKfqXPPxd1jrThC-4" value="供应商" style="swimlane;startSize=20;" vertex="1" parent="DxUAQkKfqXPPxd1jrThC-3">
+          <mxGeometry x="20" width="120" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="DxUAQkKfqXPPxd1jrThC-5" value="业财服务器" style="swimlane;startSize=20;" vertex="1" parent="DxUAQkKfqXPPxd1jrThC-3">
+          <mxGeometry x="140" width="120" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="DxUAQkKfqXPPxd1jrThC-6" value="写狗服务器" style="swimlane;startSize=20;" vertex="1" parent="DxUAQkKfqXPPxd1jrThC-3">
+          <mxGeometry x="260" width="120" height="480" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
